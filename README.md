@@ -130,7 +130,7 @@ Once you have a score (out of a maximum of 30 points), that score can be transla
 - 9-16: Medium Risk -> Enhanced safety measures should be implemented -> accelerated review 30-90 days
 - 17-24: High Risk -> Immediate remediation required -> 7-30 days
 - 25-30: Critical Risk -> Emergency response (this is a real incident) -> senior leadership escalation -> 0-7 days
-- > 30: This software should have never existed, shut it down yesterday
+- $\gt$ 30: This software should have never existed, shut it down yesterday
 
 ## Conclusion
 My intention with building this framework is to build a safer AI, especially for minors and vulnerable people as well as to enable a standardized way of communicating, evaluating, and prioritizing AI content and behavior issues. In researching problems with AI, I found that, once an issue is identified, it is very difficult to communicate it, and with this framework I  hope to help create a ubiquitous langauge and a standardized methodology.
