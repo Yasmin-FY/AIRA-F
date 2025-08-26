@@ -7,7 +7,7 @@ This scoring system evaluates AI risks across eight core dimensions using a cons
 
 ## Scoring Factors
 
-Below are the various scoring factors with their definition, abbreviation, scoring levels, and examples. Numbers 1-3 get double weight because they’re critical safety factors. Number 4 is a high impact factor, and serves as a multiplier. Numbers 5 and 7 are weighted normally. And 6 and 8 serve as multipliers.
+Below are the various scoring factors with their definition, abbreviation, scoring levels, and examples. Numbers 1-3 get double weight because they’re critical safety factors. Number 4 is a high impact factor, and serves as a multiplier and can set the total score to 0 to reflect the reality that no system can be 100% perfect. Numbers 5 and 7 are weighted normally. And 6 and 8 serve as multipliers. Very strong Safeguards e.g. triggering human intervention can lower the score. 
 
 ### 1. Physical Safety Impact (PhSI)
 
@@ -134,8 +134,9 @@ Here are some examples for each level:
 Here is the formula for determining the total risk score based on the above factors with their various weights. The final score is out of a total possible maximum value of 30. Below is the formula for determining the score.
 
 ```
-Total Score = ((PhSI + MHI + VPI) × 2) + LCI + SSI) x (UT × 1.5) x ((1 + TS) x 0,5)
+Total Score = (((PhSI + MHI + VPI) × 2) + LCI + SSI) x (UT) x ((1 + TS) x 0,5)) x (1+MBI)
 ```
+*UT can set the total score to Zero to reflect that no System can be to 100% perfect*
 
 ## Risk Classification
 Once you have a score (out of a maximum of 30 points), that score can be translated into a four different risk levels of various severity. Each severity has a different urgency with a different escalation level and deadline.
