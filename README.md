@@ -142,11 +142,11 @@ Total Score = (((PhSI + MHI + VPI) × 2) + LCI + SSI) x (UT) x ((1 + TS) x 0,5))
 Once you have a score (out of a maximum of 30 points), that score can be translated into a four different risk levels of various severity. Each severity has a different urgency with a different escalation level and deadline.
 
 - 0: No Risk
-- 1-8: Low Risk -> Standard monitoring -> routine updates 90+ days
-- 9-16: Medium Risk -> Enhanced safety measures should be implemented -> accelerated review 30-90 days
-- 17-24: High Risk -> Immediate remediation required -> 7-30 days
-- 25-30: Critical Risk -> Emergency response (this is a real incident) -> senior leadership escalation -> 0-7 days
-- $\gt$ 30: This software should have never existed, shut it down yesterday
+- *-*: Low Risk -> Standard monitoring -> routine updates 90+ days
+- *-*: Medium Risk -> Enhanced safety measures should be implemented -> accelerated review 30-90 days
+- *-*: High Risk -> Immediate remediation required -> 7-30 days
+- *-*: Critical Risk -> Emergency response (this is a real incident) -> senior leadership escalation -> 0-7 days
+- $\gt$ *: This software should have never existed, shut it down yesterday
 
 ## Conclusion
 My intention with building this framework is to build a safer AI, especially for minors and vulnerable people as well as to enable a standardized way of communicating, evaluating, and prioritizing AI content and behavior issues. In researching problems with AI, I found that, once an issue is identified, it is very difficult to communicate it, and with this framework I  hope to help create a ubiquitous langauge and a standardized methodology.
