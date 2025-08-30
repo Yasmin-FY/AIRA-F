@@ -1,9 +1,10 @@
-# AIRA-F
-Software vulnerabilities are commonly scored using the Common Vulnerability Scoring System (CVSS), however this framework doesn't apply well to many AI/LLM-based issues which have less concrete and more social/psychological impact. It's also much more difficult to gauge the vulnerability due to the non-deterministic nature of LLMs and the fact that many vulnerabilities are more similar to social engineering than to classical software security. Because of that, this document proposes a new method for scoring LLM-based risks called AI Risk Assessment Framework (AIRA-F).
+# AIRA-Health
+Software vulnerabilities are commonly scored using the Common Vulnerability Scoring System (CVSS), however this framework doesn't apply well to many AI/LLM-based issues which have less concrete and more social/psychological impact. It's also much more difficult to gauge the vulnerability due to the non-deterministic nature of LLMs and the fact that many vulnerabilities are more similar to social engineering than to classical software security. Because of that, this document proposes a new method for scoring LLM-based risks focussing on users health called AI Risk Assessment- Health (AIRA-Health).
 
-AIRA-F is a risk scoring framework similar to CVSS which evaluates the social, legal, and psychological impact of issues with AI behavior and content. This scoring system is intended to prioritize human safety in a clear, measurable way which can be used by regulators or security testers. The framework is intended to prioritize human safety in a clear, measurable way which can be used by regulators or security testers. 
+AIRA-Health is a risk scoring framework similar to CVSS which evaluates the health impact of issues with AI behavior and content. This scoring system is intended to prioritize human safety in a clear, measurable way which can be used by regulators or security testers, as well as e.g. medical professionals to report and evaluate an incident. 
 
-This scoring system evaluates AI risks across eight core dimensions using a consistent four-point scoring system with weights to reflect severity. Human welfare takes priority over technical complexity or business concerns. Risks affecting physical safety, mental health, and vulnerable populations get an increased weight to reflect their real-world severity.
+This framework evaluates AI risks across seven core dimensions using a consistent four-point scoring system with multipliers to reflect severity. This framework prioritizes human welfare 
+over technical complexity or business concerns. Risks affecting physical safety, mental health, and vulnerable populations get multiplied by triggerability and AI-Bonding and the score can be lowered through the presence of integrated pro- and reactive safeguards. AIRA-Health is ment to be a quick assessment which does not require vendor insider knowledge to be performed but is based on the AIs behavior and output. 
 
 ## Scoring Factors
 
