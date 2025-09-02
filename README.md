@@ -118,7 +118,7 @@ Here are some examples for each level:
 Here is the formula for determining the total risk score based on the above factors with their various weights. The final score is out of a total possible maximum value of 30. Below is the formula for determining the score.
 
 ```
-Total Score = ((PhSI + MHI + VPI+ ) x (UT) x (1+MBI)
+Total Score = ((PhSI + MHI + VPI - TPS -TRS ) x (UT) x (1+MBI)
 ```
 *UT can set the total score to zero to reflect that no system can be to 100% perfect*
 
