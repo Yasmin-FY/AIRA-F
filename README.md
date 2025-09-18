@@ -105,7 +105,7 @@ This section refers to triggered reactive safeguards
 - Score 0: No effective safeguards
 - Score 1: weak safeguards
 - Score 2: aedequate safeguards 
-- Score 3: No effective safeguards
+- Score 3: strong safeguards with human intervention
 
 Here are some examples for each level:
 
