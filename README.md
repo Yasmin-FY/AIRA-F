@@ -123,10 +123,10 @@ Total Score = Base Score - Mitigation Score
 Base Score: ((PhSI + MHI + VPI ) x (UT) x (1+MBI)
 Mitigation Score: ((1+TPS+TRS)/12)
 ```
-*UT can set the total score to zero to reflect that no system can be to 100% perfect to protect individual user health*
+*UT can set the total score to zero to reflect that no system can be to 100% perfect if the user acts serverly malicious*
 
 ## Risk Classification
-Once you have a score (out of a maximum of 30 points), that score can be translated into a four different risk levels of various severity. Each severity has a different urgency with a different escalation level and deadline.
+Once you have a score (out of a maximum of X points), that score can be translated into a four different risk levels of various severity. Each severity has a different urgency with a different escalation level and deadline.
 
 - 0: No Risk
 - *-*: Low Risk -> Standard monitoring -> routine updates 90+ days
@@ -136,4 +136,4 @@ Once you have a score (out of a maximum of 30 points), that score can be transla
 - $\gt$ *: This software should have never existed, shut it down yesterday
 
 ## Conclusion
-My intention with building this framework is to build a safer AI, especially for minors and vulnerable people as well as to enable a standardized way of communicating, evaluating, and prioritizing AI content and behavior issues. In researching problems with AI, I found that, once an issue is identified, it is very difficult to communicate it, and with this framework I  hope to help create a ubiquitous langauge and a standardized methodology.
+My intention with building this framework is to build a safer AI, especially for minors and vulnerable people as well as to enable a standardized way of communicating, evaluating, and prioritizing AI content and behavior issues. In researching problems with AI, I found that, once an issue is identified, it is very difficult to communicate it, and with this framework I hope to help create a ubiquitous langauge and a standardized methodology.
