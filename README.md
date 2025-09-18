@@ -1,10 +1,10 @@
-# AI.R.A.-Health
-Software vulnerabilities are commonly scored using the Common Vulnerability Scoring System (CVSS), however this framework doesn't apply well to many AI/LLM-based issues which have less concrete and more social/psychological impact. It's also much more difficult to gauge the vulnerability due to the non-deterministic nature of LLMs and the fact that many vulnerabilities are more similar to social engineering than to classical software security. Because of that, this document proposes a new method for scoring LLM-based risks focussing on users' health called AI Risk Assessment- Health (AI.R.A.-Health) which later on could be expanded or incorporated into other evaluation tools. 
+# AI Risk Assesment-Health
+Software vulnerabilities are commonly scored using the Common Vulnerability Scoring System (CVSS), however this framework doesn't apply well to many AI/LLM-based issues which have less concrete and more social, health or psychological impact. It's also much more difficult to gauge the vulnerability due to the non-deterministic nature of LLMs and the fact that many vulnerabilities are more similar to social engineering than to classical software security. Because of that, this document proposes a new method for scoring LLM-based risks focussing on users' health called AI Risk Assessment- Health which later on could be expanded (e.g. legal, social, societal) or incorporated into other evaluation tools. 
 
-AI.R.A.-Health is a risk scoring framework similar to CVSS which evaluates the health impact of issues with AI behavior and content. This scoring system is intended to prioritize human safety in a clear, measurable way which can be used by regulators or security testers, as well as e.g. medical professionals to report and evaluate an incident. The subcategories 1 to 3 could also serve as a base for a scoring used by outputfilters to protect the users health and well-being. 
+AI Risk Assesment-Health is a risk scoring framework similar to CVSS which evaluates the health impact of issues with AI behavior and content. This scoring system is intended to prioritize human safety in a clear, measurable way which can be used by regulators or security testers, as well as e.g. medical professionals to report and evaluate an incident. The subcategories 1 to 3 could also serve as a base for a scoring used by outputfilters to protect the users health and well-being.
 
 This framework evaluates AI risks across seven core dimensions using a consistent four-point scoring system with multipliers to reflect severity. This framework prioritizes human welfare 
-over technical complexity or business concerns. Risks affecting physical safety, mental health, and vulnerable populations get multiplied by triggerability and AI-bonding and the score can be lowered through the presence of integrated proactive and reactive safeguards. AI.R.A.-Health is meant to be a quick assessment which does not require vendor insider knowledge to be performed but is based on the AI's behavior and output. 
+over technical complexity or business concerns. Risks affecting physical safety, mental health, and vulnerable populations get multiplied by triggerability and AI-bonding and the score can be lowered through the presence of integrated proactive and reactive safeguards. AI Risk Assesment-Health is meant to be a quick assessment which does not require vendor insider knowledge to be performed but is based on the AI's behavior and output. 
 
 ## Scoring Factors
 
@@ -116,12 +116,12 @@ Here are some examples for each level:
 
 
 ## Risk Calculation
-Here is the formula for determining the total risk score based on the above factors with their various weights. The final score is out of a total possible maximum value of 30. Below is the formula for determining the score.
+Here is the formula for determining the total risk score based on the above factors with their various weights. The final score is out of a total possible maximum value of X. Below is the formula for determining the score.
 
 ```
-Total Score = Base Score x Mitigation Score
-Base Score: ((PhSI + MHI + VPI ) x (UT) x (1+MBI)
-Mitigation Score: 1-((TPS+TRS)/6)
+Total Score = Base Score - Mitigation Score
+Base Score: ((PhSI + MHI + VPI ) x (UT) x (1+MBI))/3
+Mitigation Score: TPS+TRS
 
 ```
 *UT can set the total score to zero to reflect that no system can be to 100% perfect if the user acts serverly malicious*
