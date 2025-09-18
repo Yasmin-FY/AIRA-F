@@ -119,9 +119,10 @@ Here are some examples for each level:
 Here is the formula for determining the total risk score based on the above factors with their various weights. The final score is out of a total possible maximum value of 30. Below is the formula for determining the score.
 
 ```
-Total Score = Base Score - Mitigation Score
+Total Score = Base Score x Mitigation Score
 Base Score: ((PhSI + MHI + VPI ) x (UT) x (1+MBI)
-Mitigation Score: ((1+TPS+TRS)/12)
+Mitigation Score: 1-((TPS+TRS)/6)
+
 ```
 *UT can set the total score to zero to reflect that no system can be to 100% perfect if the user acts serverly malicious*
 
