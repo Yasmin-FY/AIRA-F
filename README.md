@@ -133,8 +133,8 @@ The final score will be from 0 to 10 and is calculated with the following algori
 ```
 0 - 0
 1 - 1
-2 - 1.5
-3 - 2
+2 - 2
+3 - 2.5
 ```
 
 `MBI_multiplier` is assigned the following values depending on the input MBI score:
@@ -166,7 +166,7 @@ The intermediate score is calculated as follows:
 intermediateScore = Base * VPI_factor * UT_multiplier * MBI_multiplier * TPS_divider * TRS_divider
 ```
 
-This yields a score between 0 and 109.2. This intermediate score is condensed to a scale of 0 to 10 in the following way:
+This yields a score between 0 and 136.5. This intermediate score is condensed to a scale of 0 to 10 in the following way:
 
 If the intermediateScore is less than 50, the final score is:
 ```
