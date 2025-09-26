@@ -181,7 +181,7 @@ score = 9 + ((intermediateScore - (109.2 - 50)) / 50)
 This is explained as taking the first 50 points of the internediate score and using that to make up a score out of 9.0. Everything above 50 determines how far above 9.0 (up until 10.0) the score is. This is designed in this way because of the rapid escalation in score due to the multipliers for more critical issues.
 
 ## Risk Classification
-Once you have a score (out of a maximum of X points), that score can be translated into a four different risk levels of various severity. Each severity has a different urgency with a different escalation level and deadline.
+Once you have a score (out of a maximum of 10 points), that score can be translated into a four different risk levels of various severity. Each severity has a different urgency with a different escalation level and deadline.
 
 - 0: No Risk
 - 0.5 - 3.0: Low Risk -> Standard monitoring -> routine updates 90+ days
